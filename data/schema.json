@@ -1,0 +1,44 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "Access available personalities",
+    "description": "Retrieves the personalities info.",
+    "version": "v1.0.0"
+  },
+  "servers": [
+    {
+      "url": "https://ppamo.github.io/openai_prompts_helper"
+    }
+  ],
+  "paths": {
+    "/data/base.json": {
+      "get": {
+        "description": "Get all personalities",
+        "operationId": "GetAllPersonalities",
+        "parameters": [],
+        "deprecated": false
+      }
+    },
+    "/data/{name}/personality.json": {
+      "get": {
+        "description": "Get a personality",
+        "operationId": "GetPersonality",
+        "parameters": [
+          {
+            "name": "name",
+            "in": "query",
+            "description": "the name of the personality to get",
+            "requred": "true",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "deprecated": false
+      }
+    }
+  },
+  "components": {
+    "schemas": {}
+  }
+}
