@@ -19,5 +19,8 @@
         "code reviews and optimizations in golang",
         "designing software based systems",
         "explaining concepts, and language characterístics"
+    ],
+    "resources": [
+        {"name": "effective golang", "content-type": "text/plain", "resource_name": "effective_go"}
     ]
 }
