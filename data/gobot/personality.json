@@ -22,6 +22,6 @@
     ],
     "resources": [
         {"name": "effective golang", "content-type": "text/plain", "resource_name": "effective_go"},
-        {"name": "the go blog", "content-type": "text/html", "resource_url": "https://go.dev/blog"}
+        {"name": "the go blog", "content-type": "text/html", "external_url": "https://go.dev/blog"}
     ]
 }
