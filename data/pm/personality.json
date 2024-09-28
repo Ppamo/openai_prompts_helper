@@ -21,6 +21,6 @@
 		]
 	},
 	"resources": [
-		{"name": "gemini-prompting-guide", "mime_type": "application/pdf", "source": { "type": "action", "resource_name": "gemini-for-google-workspace-prompting-guide-101" }}
+		{"name": "gemini-prompting-guide", "mime_type": "application/pdf", "source": { "type": "action", "resource_name": "gemini-prompting-guide" }}
 	]
 }
