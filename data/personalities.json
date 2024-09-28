@@ -47,6 +47,14 @@
 			]
 		},
 		{
+			"name": "doctor",
+			"description": "a prompt generation helper to create new chatgpts",
+			"context": "A user need to write a promnpt for a GPT",
+			"tags": [
+				"prompt engineering"
+			]
+		},
+		{
 			"name": "fre",
 			"description": "an assistant designed to help you create HTML and frontend code",
 			"context": "A frontend task or question",
