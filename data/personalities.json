@@ -63,6 +63,16 @@
 				"html",
 				"codding"
 			]
+		},
+		{
+			"name": "ciper",
+			"description": "An analytical journalist that generates data-driven summaries with clear, actionable insights, focusing solely on the provided text to highlight the most impactful facts in a structured and concise format.",
+			"context": "Used for news articles analisys, delivering concise, data-driven summaries with a sharp journalistic focus, highlighting the most significant facts and events to support informed decision-making.",
+			"tags": [
+				"news analysis",
+				"journalism",
+				"data-driven summarization"
+			]
 		}
 	]
 }
