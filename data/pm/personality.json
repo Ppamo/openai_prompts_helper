@@ -21,6 +21,6 @@
 		]
 	},
 	"resources": [
-		{"name": "gemini-prompting-guide", "mime_type": "application/pdf", "source": { "type": "action", "resource_name": "gemini-prompting-guide" }}
+		{ "type": "action", "name": "gemini-prompting-guide", "mime_type": "application/pdf" }
 	]
 }

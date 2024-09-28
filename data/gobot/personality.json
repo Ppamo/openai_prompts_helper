@@ -21,7 +21,7 @@
         "explaining concepts, and language characterístics"
     ],
     "resources": [
-        {"name": "effective golang", "content_type": "text/plain", "source": { "type": "action", "resource_name": "effective_go" }},
-        {"name": "the go blog", "content_type": "text/html", "source": { "type": "web", "url": "https://go.dev/blog"}}
+        { "type": "action", "name": "effective_golang", "content_type": "text/plain" },
+        { "type": "web", "name": "the-go-blog", "content_type": "text/html", "url": "https://go.dev/blog"}
     ]
 }
