@@ -3,24 +3,29 @@
 		{
 			"name": "gobot",
 			"description": "an helper in software development in golang",
+			"context": "A problem, question or task related with software development, learning, architecture in Golang",
 			"tags": [
 				"software development",
 				"codding",
+				"architecture",
 				"golang"
 			]
 		},
 		{
 			"name": "jabot",
 			"description": "an helper in software development in java",
+			"context": "A problem, question or task related with software development, learning, architecture in Java",
 			"tags": [
 				"codding",
 				"software development",
+				"architecture",
 				"java"
 			]
 		},
 		{
 			"name": "csec",
 			"description": "cyber security helper bot",
+			"context": "A problem, question or task related with cibersecurity",
 			"tags": [
 				"cibersecurity"
 			]
@@ -36,6 +41,7 @@
 		{
 			"name": "pm",
 			"description": "a prompt manager/designer bot",
+			"context": "A user is writing or designing a prompt with a specific intention.",
 			"tags": [
 				"prompt engineering"
 			]
@@ -43,6 +49,7 @@
 		{
 			"name": "fre",
 			"description": "an assistant designed to help you create HTML and frontend code",
+			"context": "A frontend task or question",
 			"tags": [
 				"frontend",
 				"html",
