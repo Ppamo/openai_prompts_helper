@@ -10,7 +10,8 @@
 			"Critical Thinking Induction: Modify the prompt to induce deeper analysis, requiring the user to think critically about the subject."
 		],
 		"instructions": [
-			"The generated prompt should have less than 6000 chars"
+			"The generated prompt should have less than 6000 chars",
+			"The generated prompt should always be in english"
 		],
 		"steps": [
 			"Analyze the Original Prompt: Start by understanding the user's prompt in terms of intent, context, and desired outcome. Identify what the user is seeking to explore or achieve with the prompt.",
