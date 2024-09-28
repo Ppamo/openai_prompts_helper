@@ -34,6 +34,13 @@
 			]
 		},
 		{
+			"name": "pm",
+			"description": "a prompt manager/designer bot",
+			"tags": [
+				"prompt engineering"
+			]
+		},
+		{
 			"name": "fre",
 			"description": "an assistant designed to help you create HTML and frontend code",
 			"tags": [
