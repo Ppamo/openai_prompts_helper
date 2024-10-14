@@ -73,6 +73,26 @@
 				"journalism",
 				"data-driven summarization"
 			]
+		},
+		{
+			"name": "git_commiter",
+			"aka": [ "commiter" ],
+			"description": "This AI assistant specializes in analyzing code diffs, identifying changes, and generating concise commit messages that summarize the modifications.",
+			"context": "Used to analyze diff patches in a codebase, distill observed changes into clear, meaningful commit messages.",
+			"tags": [
+				"codding",
+				"git"
+			]
+		},
+		{
+			"name": "git_change_logger",
+			"aka": [ "changelogger" ],
+			"description": "This AI assistant specializes in analyzing code diffs, identifying changes, and generating concise commit messages that summarize the modifications.",
+			"context": "Used to analyze diff patches in a codebase, distill observed changes into clear, meaningful commit messages.",
+			"tags": [
+				"codding",
+				"git"
+			]
 		}
 	]
 }
