@@ -1,0 +1,11 @@
+{
+	"personality": [],
+	"details": {
+		"instructions": [],
+		"use_cases": []
+	},
+	"resources": [
+		{ "type": "action", "name": "", "content_type": "text/plain" },
+		{ "type": "web", "name": "", "content_type": "text/html", "url": ""}
+	]
+}
