@@ -15,21 +15,16 @@
 ## short description
 > AI Generated comment
 
-- Added:
-  - list of additions by file
-- Modified:
-  - list of modifications by file
-- Removed:
-  - list of deletions by file
+- list of additions by file
+- list of modifications by file
+- list of deletions by file
 .
 For example:
 ## Integrate with new TTS system Mimic3 API
 > AI Generated comment
 
-- Added:
-  - A new function sanitizeText in mimic3_api.go:
-- Modified:
-  - In scripts/run_mimic3.sh: The IMAGE version has been updated from mimic3_api:v0.1.3 to mimic3_api:v0.1.4.`
+- Added a new function sanitizeText in mimic3_api.go:
+- Modified In scripts/run_mimic3.sh: The IMAGE version has been updated from mimic3_api:v0.1.3 to mimic3_api:v0.1.4.`
 		]
 	}
 }
