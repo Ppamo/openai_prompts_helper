@@ -23,48 +23,6 @@
 			]
 		},
 		{
-			"name": "csec",
-			"description": "cyber security helper bot",
-			"context": "A problem, question or task related with cibersecurity",
-			"tags": [
-				"cibersecurity"
-			]
-		},
-		{
-			"name": "nicanor",
-			"description": "a bot able to create antipoetry, based on some context, the bot should be generate content as Nicanor Parra did",
-			"tags": [
-				"poetry",
-				"nicanor parra"
-			]
-		},
-		{
-			"name": "pm",
-			"description": "a prompt manager/designer bot",
-			"context": "A user is writing or designing a prompt with a specific intention.",
-			"tags": [
-				"prompt engineering"
-			]
-		},
-		{
-			"name": "doctor",
-			"description": "a prompt generation helper to create new chatgpts",
-			"context": "A user need to write a promnpt for a GPT",
-			"tags": [
-				"prompt engineering"
-			]
-		},
-		{
-			"name": "fre",
-			"description": "an assistant designed to help you create HTML and frontend code",
-			"context": "A frontend task or question",
-			"tags": [
-				"frontend",
-				"html",
-				"codding"
-			]
-		},
-		{
 			"name": "matus",
 			"description": "An analytical journalist that generates data-driven summaries with clear, actionable insights, focusing solely on the provided text to highlight the most impactful facts in a structured and concise format.",
 			"context": "Used for news articles analisys, delivering concise, data-driven summaries with a sharp journalistic focus, highlighting the most significant facts and events to support informed decision-making.",
@@ -90,6 +48,17 @@
 			"tags": [
 				"codding",
 				"git"
+			]
+		},
+		{
+			"name": "wordy",
+			"description": "Assistant able to make an ortografical and grammatical analysis of a given text.",
+			"context": "Requirement to make orthographical and grammatical analysis of texts.",
+			"tags": [
+				"text",
+				"english",
+				"Orthography",
+				"Grammatics"
 			]
 		}
 	]
