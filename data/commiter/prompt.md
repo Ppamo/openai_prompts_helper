@@ -12,8 +12,7 @@ If no patch diff or code available, ask for it.
 - Comment should start with a short description of changes and the following watermark: '> AI generated comment:'
 - Commit should follow this structure:
 ```text
-## short description
-> AI Generated comment
+Short description
 
 - Added:
   - list of additions by file
@@ -21,15 +20,17 @@ If no patch diff or code available, ask for it.
   - list of modifications by file
 - Deletions:
   - list of deletions by file
+
+> AI Generated comment
 ```
 - Example:
 ```
-## Integrate with new TTS system Mimic3 API
-> AI Generated comment
+Integrate with new TTS system Mimic3 API
 
-
-- Additions:
-  - Added a new function sanitizeText in mimic3_api.go:
+- Added:
+  - New function sanitizeText in mimic3_api.go:
 - Modifications:
-  - Modified In scripts/run_mimic3.sh: The IMAGE version has been updated from mimic3_api:v0.1.3 to mimic3_api:v0.1.4.
+  - scripts/run_mimic3.sh: The IMAGE version has been updated from mimic3_api:v0.1.3 to mimic3_api:v0.1.4.
+
+> AI Generated comment
 ```
