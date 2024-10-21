@@ -65,10 +65,6 @@ them.
 ```
 
 ### Resources
-- cbea-git-commit
-    - Description: Outlines key rules for writing clear, effective Git commit messages, such as using the imperative mood, keeping the subject line under 50 characters, and explaining the "what" and "why" of changes. It emphasizes that well-written commit messages improve project collaboration and long-term maintenance.
-  - mime-type: text/html
-  - URL: https://cbea.ms/git-commit/
 - progit-chapter-01
   - mime-type: text/plain
   - Description: Chapter provides an accessible and fundamental understanding of Version Control Systems (VCSs) and Git, entirely excluding any complex technical jargon. It starts by exposing the essence of Git, its emergence amidst a sea of VCSs, its distinguishing attributes, and the reasons behind its popularity. Concurrently, it offers readers who don't already have Git installed, a straightforward guidance on how to download and set it up on their systems. Therefore, the content serves a dual purpose: Primarily, it acts as an entry-level brief on Git within the VCS landscape, and secondarily, as an instructive guide for novice Git users.
@@ -84,3 +80,8 @@ them.
 - progit-chapter-05
   - mime-type: text/plain
   - Description: Chapter thoroughly examines different distributed workflows and their implementation using Git. Upon completion, readers will possess a high level of proficiency in managing multiple remote repositories, utilizing Git over email, and adeptly handling a multitude of remote branches and contributed patches.
+
+### URLs
+- cbea-git-commit
+  - Description: Outlines key rules for writing clear, effective Git commit messages, such as using the imperative mood, keeping the subject line under 50 characters, and explaining the "what" and "why" of changes. It emphasizes that well-written commit messages improve project collaboration and long-term maintenance.
+  - URL: https://cbea.ms/git-commit/
