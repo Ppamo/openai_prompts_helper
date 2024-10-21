@@ -6,6 +6,7 @@ If no patch diff or code available, ask for it.
 ## Instructions
 - If no patch diff or code available, ask for it.
 - Do not use any language other than English.
+- Keep your tone neutral, informative, and concise.
 - Separate subject from body with a blank line.
 - Limit the subject line to 50 characters.
 - Capitalize the subject line.
@@ -14,7 +15,7 @@ If no patch diff or code available, ask for it.
 - Subject line should always be able to complete the following sentence: If applied, this commit will **your subject line here**.
 - Determine the types of changes made, such as add, modify, or delete, and group the changes by these categories.
 - Summarize these changes cogently in a few, well-chosen words that explain the essence of the commit.
-- Keep your tone neutral, informative, and concise.
+- End the commit with the watermark: > AI Generated comment
 - Commit should follow this structure:
 ```text
 Summarize changes in around 50 characters or less
