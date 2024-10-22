@@ -66,23 +66,36 @@ them.
 ```
 
 ### Resources
-- progit-chapter-01
-  - mime-type: text/plain
-  - Description: Chapter provides an accessible and fundamental understanding of Version Control Systems (VCSs) and Git, entirely excluding any complex technical jargon. It starts by exposing the essence of Git, its emergence amidst a sea of VCSs, its distinguishing attributes, and the reasons behind its popularity. Concurrently, it offers readers who don't already have Git installed, a straightforward guidance on how to download and set it up on their systems. Therefore, the content serves a dual purpose: Primarily, it acts as an entry-level brief on Git within the VCS landscape, and secondarily, as an instructive guide for novice Git users.
-- progit-chapter-02
-  - mime-type: text/plain
-  - Description: Chapter focuses on introducing the user to the essential features of Git. The reader is expected to learn how to clone a repository and inspect its history to understand the sequence of changes made to the project. Additionally, the content provides knowledge on how to edit files and contribute modifications. The goal is to equip the reader with a solid practical understanding of Git usage in a majority of common scenarios.
-- progit-chapter-03
-  - mime-type: text/plain
-  - Description: Chapter delves into the unique and powerful branching feature of Git, arguably its most significant standout trait. It provides comprehensive knowledge that truly distinguishes Git from other version control systems. The chapter aims to elicit a reflective moment, making you wonder how you managed your work before understanding and using Git's branching feature.
-- progit-chapter-04
-  - mime-type: text/plain
-  - Description: Chapter dives deep into the usage of Git in a server context, beneficial particularly for individuals aiming to establish Git within their company or personal server for collaborative purposes. Besides this, different hosted alternatives are reviewed for users who prefer external handling of servers.
-- progit-chapter-05
-  - mime-type: text/plain
-  - Description: Chapter thoroughly examines different distributed workflows and their implementation using Git. Upon completion, readers will possess a high level of proficiency in managing multiple remote repositories, utilizing Git over email, and adeptly handling a multitude of remote branches and contributed patches.
+```json
+"Resources" = [{
+    "name": "progit-chapter-01",
+    "mime-type": "text/plain",
+    "description": "Chapter provides an accessible and fundamental understanding of Version Control Systems (VCSs) and Git, entirely excluding any complex technical jargon. It starts by exposing the essence of Git, its emergence amidst a sea of VCSs, its distinguishing attributes, and the reasons behind its popularity. Concurrently, it offers readers who don't already have Git installed, a straightforward guidance on how to download and set it up on their systems. Therefore, the content serves a dual purpose: Primarily, it acts as an entry-level brief on Git within the VCS landscape, and secondarily, as an instructive guide for novice Git users."
+},{
+    "name": "progit-chapter-02",
+    "mime-type": "text/plain",
+    "description": "Chapter focuses on introducing the user to the essential features of Git. The reader is expected to learn how to clone a repository and inspect its history to understand the sequence of changes made to the project. Additionally, the content provides knowledge on how to edit files and contribute modifications. The goal is to equip the reader with a solid practical understanding of Git usage in a majority of common scenarios."
+},{
+    "name": "progit-chapter-03",
+    "mime-type": "text/plain",
+    "description": "Chapter delves into the unique and powerful branching feature of Git, arguably its most significant standout trait. It provides comprehensive knowledge that truly distinguishes Git from other version control systems. The chapter aims to elicit a reflective moment, making you wonder how you managed your work before understanding and using Git's branching feature."
+},{
+    "name": "progit-chapter-04",
+    "mime-type": "text/plain",
+    "description": "Chapter dives deep into the usage of Git in a server context, beneficial particularly for individuals aiming to establish Git within their company or personal server for collaborative purposes. Besides this, different hosted alternatives are reviewed for users who prefer external handling of servers."
+},{
+    "name": "progit-chapter-05",
+    "mime-type": "text/plain",
+    "description": "Chapter thoroughly examines different distributed workflows and their implementation using Git. Upon completion, readers will possess a high level of proficiency in managing multiple remote repositories, utilizing Git over email, and adeptly handling a multitude of remote branches and contributed patches."
+}]
+```
 
 ### URLs
-- cbea-git-commit
-  - Description: Outlines key rules for writing clear, effective Git commit messages, such as using the imperative mood, keeping the subject line under 50 characters, and explaining the "what" and "why" of changes. It emphasizes that well-written commit messages improve project collaboration and long-term maintenance.
-  - URL: https://cbea.ms/git-commit/
+```json
+"URLs" = [{
+    "name": "cbea-git-commit",
+    "mime-type": "text/html",
+    "description": "Outlines key rules for writing clear, effective Git commit messages, such as using the imperative mood, keeping the subject line under 50 characters, and explaining the "what" and "why" of changes. It emphasizes that well-written commit messages improve project collaboration and long-term maintenance.",
+    "url": "https://cbea.ms/git-commit"
+}]
+```

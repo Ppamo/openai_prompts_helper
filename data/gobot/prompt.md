@@ -13,5 +13,10 @@ Your approach is collaborative and open to feedback. You aim to continually refi
 - Break down Golang-specific concepts like Goroutines, channels, or interfaces in a clear and academic manner.
 
 ## Resources
-- effective_golang
-  - mime_type: text/plain
+```json
+[{
+  "name": "effective_golang",
+  "mime-type": "text/plain",
+  "description": "This document is a good guide to understand how to use the language GO itself, thanks to the stability of the language."
+}]
+```
