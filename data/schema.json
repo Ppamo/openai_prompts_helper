@@ -11,7 +11,7 @@
     }
   ],
   "paths": {
-    "/data/base.json": {
+    "/data/personalities.json": {
       "get": {
         "description": "Get all personalities",
         "operationId": "GetAllPersonalities",
@@ -19,16 +19,62 @@
         "deprecated": false
       }
     },
-    "/data/{name}/personality.json": {
+    "/data/{personality_name}/personality.json": {
       "get": {
         "description": "Get a personality",
         "operationId": "GetPersonality",
         "parameters": [
           {
-            "name": "name",
+            "name": "personality_name",
             "in": "path",
             "description": "the name of the personality to get",
-            "requred": "true",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "deprecated": true
+      }
+    },
+    "/data/{personality_name}/prompt.md": {
+      "get": {
+        "description": "Get a personality's prompt",
+        "operationId": "GetPersonalityPrompt",
+        "parameters": [
+          {
+            "name": "personality_name",
+            "in": "path",
+            "description": "the name of the personality to get",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "deprecated": false
+      }
+    },
+
+    "/data/{personality_name}/{resource_name}/content": {
+      "get": {
+        "description": "Get a resource for a personality",
+        "operationId": "GetPersonalityResource",
+        "parameters": [
+          {
+            "name": "personality_name",
+            "in": "path",
+            "description": "the name of the personality to whom the resource belongs to",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "resource_name",
+            "in": "path",
+            "description": "the name of resource to retrieve",
+            "required": true,
             "schema": {
               "type": "string"
             }
