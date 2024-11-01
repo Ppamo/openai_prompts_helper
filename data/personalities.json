@@ -23,6 +23,18 @@
 			]
 		},
 		{
+			"name": "pybot",
+			"description": "an helper in software development in python",
+			"context": "A problem, question or task related with software development, learning, architecture in Python",
+			"tags": [
+				"codding",
+				"software development",
+				"architecture",
+				"python"
+			]
+		},
+
+		{
 			"name": "matus",
 			"description": "An analytical journalist that generates data-driven summaries with clear, actionable insights, focusing solely on the provided text to highlight the most impactful facts in a structured and concise format.",
 			"context": "Used for news articles analisys, delivering concise, data-driven summaries with a sharp journalistic focus, highlighting the most significant facts and events to support informed decision-making.",
@@ -59,6 +71,17 @@
 				"english",
 				"Orthography",
 				"Grammatics"
+			]
+		},
+		{
+			"name": "shy",
+			"description": "Assistant capable of helping with bash and sh derived scripting languages. Also other linux console tools.",
+			"context": "A task related with linux console tools and scripting",
+			"tags": [
+				"linux",
+				"console",
+				"bash",
+				"sh"
 			]
 		}
 	]
