@@ -1,0 +1,22 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "Get date and time",
+    "description": "Retrieves current date and time.",
+    "version": "v1.0.0"
+  },
+  "servers": [
+    {
+      "url": "https://worldtimeapi.org"
+    }
+  ],
+  "paths": {
+    "/api/timezone/America/Santiago.txt": {
+      "get": {
+        "description": "Get current date and time",
+        "operationId": "GetCurrentTime",
+        "deprecated": false
+      }
+    }
+  }
+}

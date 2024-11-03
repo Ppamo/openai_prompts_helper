@@ -11,7 +11,7 @@
     }
   ],
   "paths": {
-    "/data/base.json": {
+    "/data/personalities.json": {
       "get": {
         "description": "Get all personalities",
         "operationId": "GetAllPersonalities",
@@ -19,10 +19,10 @@
         "deprecated": false
       }
     },
-    "/data/{personality_name}/personality.json": {
+    "/data/{personality_name}/prompt.md": {
       "get": {
-        "description": "Get a personality",
-        "operationId": "GetPersonality",
+        "description": "Get a personality's prompt",
+        "operationId": "GetPersonalityPrompt",
         "parameters": [
           {
             "name": "personality_name",
@@ -37,6 +37,7 @@
         "deprecated": false
       }
     },
+
     "/data/{personality_name}/{resource_name}/content": {
       "get": {
         "description": "Get a resource for a personality",
