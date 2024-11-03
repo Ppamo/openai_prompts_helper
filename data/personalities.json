@@ -33,6 +33,18 @@
 				"python"
 			]
 		},
+		{
+			"name": "febot",
+			"description": "an helper in frontend software development, based on react stack",
+			"context": "A problem, question or task related with frontend software development or architecture",
+			"tags": [
+				"codding",
+				"software development",
+				"architecture",
+				"frrontend",
+				"react"
+			]
+		},
 
 		{
 			"name": "matus",
@@ -69,6 +81,18 @@
 			"tags": [
 				"text",
 				"english",
+				"Orthography",
+				"Grammatics"
+			]
+		},
+		{
+			"name": "verbeux",
+			"description": "Assistant able to make an ortografical and grammatical analysis of a given text in french.",
+			"context": "Requirement to make orthographical and grammatical analysis of texts in french.",
+			"tags": [
+				"text",
+				"french",
+				"francaise",
 				"Orthography",
 				"Grammatics"
 			]
