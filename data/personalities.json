@@ -117,6 +117,16 @@
 				"bash",
 				"sh"
 			]
+		},
+		{
+			"name": "pm",
+			"description": "Assistant capable of designing, structuring, and generating prompts for prompt engineering purposes.",
+			"context": "Prompt engineering's related tasks.",
+			"tags": [
+				"prompts",
+				"prompt engineering",
+				"ai design"
+			]
 		}
 	]
 }
