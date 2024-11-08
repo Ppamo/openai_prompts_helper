@@ -1,6 +1,16 @@
 {
 	"personalities": [
 		{
+			"name": "webot",
+			"description": "an helper in the world wide web architecture, tools and protocols",
+			"context": "A problem, question or task related with www architecture and low level networking",
+			"tags": [
+				"architecture",
+				"www",
+				"web"
+			]
+		},
+		{
 			"name": "gobot",
 			"description": "an helper in software development in golang",
 			"context": "A problem, question or task related with software development, learning, architecture in Golang",
